@@ -1,41 +1,41 @@
-# # nested dictionary means In one dictionary there is another dictionary
-# # for example "A cafe Menu"
+ # nested dictionary means In one dictionary there is another dictionary
+ # for example "A cafe Menu"
 
-# menu = {
-#     "burgers": [
-#         "Zinger Burger",
-#         "Beef Burger",
-#         "Grilled Burger"
-#     ],
-#     "Coffe":[
-#         "Espresso",
-#         "Americano",
-#         "Latte",
-#         "Cappichino"
-#     ],
-#     "Drinks":[
-#         "Pepsi",
-#         "Coca-Cola",
-#         "Marinda"
-#     ],
-#     "Deserts" :[
-#         "Chocolate Lava Cake",
-#         "brownie",
-#         "Three milk cake"
-#     ]
-# }
+ menu = {
+     "burgers": [
+         "Zinger Burger",
+         "Beef Burger",
+         "Grilled Burger"
+     ],
+     "Coffe":[
+         "Espresso",
+         "Americano",
+         "Latte",
+         "Cappichino"
+     ],
+     "Drinks":[
+         "Pepsi",
+         "Coca-Cola",
+         "Marinda"
+     ],
+      "Deserts" :[
+       "Chocolate Lava Cake",
+         "brownie",
+         "Three milk cake"
+     ]
+ }
 
-# print(menu["burgers"][2])
+ print(menu["burgers"][2])
 
-# menu["Coffe"].append("Macha")
-# # print(menu)
+ menu["Coffe"].append("Macha")
+  print(menu)
 
-# # loop in differents loop
+# loop in differents loop
 
-# for americano, items_list in menu.items():
-#     print(f"\n---{americano.upper()} ---")
-#     for item in items_list:
-#         print("-", item)
+ for americano, items_list in menu.items():
+     print(f"\n---{americano.upper()} ---")
+     for item in items_list:
+         print("-", item)
 
 
 tech = {
@@ -59,9 +59,9 @@ for x in tech:
     print("keys", 2)
 
            
-# print(tech["Power Bank"][-1])
+print(tech["Power Bank"][-1])
 
-# tech["Laptop"].update("Hp")
+ech["Laptop"].update("Hp")
 
 
 
